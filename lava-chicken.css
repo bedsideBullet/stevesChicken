@@ -45,7 +45,7 @@ select:focus {
 }
 
 .hero {
-	background: url("images/dirt-block-bg.png") center/cover no-repeat;
+	background: url("images/dirt-block-bg.png") center 10%/cover no-repeat;
 	padding: 5rem 2rem;
 	text-align: center;
 	box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.7);
@@ -54,12 +54,13 @@ select:focus {
 .hero h1 {
 	font-size: 2.5rem;
 	margin: 0.5rem 0;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	text-shadow: 2px 2px 4px #ff4500;
 }
 
 .hero p {
 	font-size: 1.2rem;
 	margin-bottom: 2rem;
+	text-shadow: 2px 2px 4px #ff4500;
 }
 
 .cta-button {
