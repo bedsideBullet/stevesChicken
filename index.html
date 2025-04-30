@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Steve's Lava Chicken</title>
+		<link rel="stylesheet" href="lava-chicken.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<a href="#main-content" class="skip-link">Skip to main content</a>
+		<header class="hero">
+			<div class="container">
+				<h1>Steve's Lava Chicken</h1>
+				<p>Crispy, juicy, and super spicy! 🔥</p>
+				<a href="#order" class="cta-button">Order Now</a>
+			</div>
+		</header>
+
+		<main id="main-content">
+			<section class="menu">
+				<div class="container">
+					<h2>Our Menu</h2>
+					<div class="menu-grid">
+						<div class="menu-item">
+							<img src="images/lava-chicken.jpg" alt="Lava Chicken" />
+							<h3>Lava Chicken</h3>
+							<p>Our signature dish, cooked with real lava! 5 emeralds</p>
+							<button class="learn-more" data-item="Lava Chicken">
+								Learn More
+							</button>
+						</div>
+						<div class="menu-item">
+							<img src="images/cubed-fries.jpg" alt="Spicy Cubed Fries" />
+							<h3>Spicy Cubed Fries</h3>
+							<p>Blocky fries with a fiery kick. 3 emeralds</p>
+							<button class="learn-more" data-item="Spicy Cubed Fries">
+								Learn More
+							</button>
+						</div>
+						<div class="menu-item">
+							<img src="images/milkshake.jpg" alt="Overworld Milkshake" />
+							<h3>Overworld Milkshake</h3>
+							<p>Cools the lava heat with a creamy finish. 2 emeralds</p>
+							<button class="learn-more" data-item="Overworld Milkshake">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="event">
+				<div class="container">
+					<h2>Chicken Jockey Challenge</h2>
+					<p>
+						Join the viral craze! Can you eat Lava Chicken without water for 5
+						minutes?
+					</p>
+					<button class="challenge-button">Join the Challenge</button>
+				</div>
+			</section>
+
+			<section class="order" id="order">
+				<div class="container">
+					<h2>Place Your Order</h2>
+					<form id="order-form">
+						<label for="name-input">Name:</label>
+						<input
+							type="text"
+							id="name-input"
+							name="name"
+							placeholder="Enter your name"
+							required
+						/>
+						<label for="menu-item">Select Item:</label>
+						<select id="menu-item" name="menu-item" required>
+							<option value="Lava Chicken">Lava Chicken - 5 emeralds</option>
+							<option value="Spicy Cubed Fries">
+								Spicy Cubed Fries - 3 emeralds
+							</option>
+							<option value="Overworld Milkshake">
+								Overworld Milkshake - 2 emeralds
+							</option>
+						</select>
+						<label for="quantity">Quantity:</label>
+						<input
+							type="number"
+							id="quantity"
+							name="quantity"
+							min="1"
+							value="1"
+							required
+						/>
+						<button type="submit" aria-label="Place your order">
+							Order Now
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>© 2025 Steve's Lava Chicken. All rights reserved.</p>
+			</div>
+		</footer>
+	</body>
+</html>
