@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	cursor: url("images/lava-bucket-cursor.png"), auto;
+	cursor: url("images/lava-bucket-cursor.png") 32 16, auto;
 	margin: 0;
 	font-family: "Press Start 2P", cursive;
 	background-color: #8b5a2b;
@@ -13,7 +13,7 @@ body {
 
 a,
 button {
-	cursor: url("images/lava-bucket-cursor.png"), pointer;
+	cursor: url("images/lava-bucket-cursor.png") 32 16, pointer;
 }
 
 a:focus,
@@ -45,7 +45,7 @@ select:focus {
 }
 
 .hero {
-	background: url("images/dirt-block-bg.jpg") center/cover no-repeat;
+	background: url("images/dirt-block-bg.png") center/cover no-repeat;
 	padding: 5rem 2rem;
 	text-align: center;
 	box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.7);

@@ -34,12 +34,12 @@ document.querySelectorAll(".learn-more").forEach((button) => {
 		if (item === "Lava Chicken") {
 			description =
 				"Cooked with real lava for a super spicy kick! A favorite from A Minecraft Movie.";
-		} else if (item === "Spicy Cubed Fries") {
+		} else if (item === "Baked Potato") {
 			description =
-				"Blocky fries with a fiery seasoning. Perfect for adventurers!";
+				"Fluffy and hearty, roasted to perfection. A staple for hungry miners!";
 		} else {
 			description =
-				"A creamy milkshake to cool the lava heat. Made with Overworld ingredients.";
+				"Pure milk to clear the fiery heat. Crafted from the finest cows in the Overworld.";
 		}
 		Swal.fire({
 			title: item,
